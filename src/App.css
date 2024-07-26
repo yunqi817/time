@@ -5,6 +5,10 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  border-bottom-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -26,6 +30,7 @@
 
 .App-link {
   color: #61dafb;
+  font-size: 20px;
 }
 
 @keyframes App-logo-spin {
